@@ -1,6 +1,14 @@
-name: template-jp
+name: galaxy-xarray
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python
+  - xarray
+  - intake
+  - intake-esm
+  - cftime
+  - matplotlib
+  - cartopy
+  - gcsfs
+  - nc-time-axis
